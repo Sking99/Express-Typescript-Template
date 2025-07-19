@@ -8,6 +8,6 @@ const app = express();
 app.use(pingRouter);
 
 app.listen(systemConfig.port, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on http://localhost:${systemConfig.port}`);
   console.log(`Press Ctrl+C to stop the server`);
 });
