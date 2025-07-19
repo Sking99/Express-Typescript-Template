@@ -1,6 +1,6 @@
 import express from 'express';
-import { systemConfig } from './config/index.js';
-import pingRouter from './router/ping.router.js';
+import { systemConfig } from './config/index';
+import pingRouter from './router/ping.router';
 // import { pingHandler } from './controllers/ping.controller.js';
 
 const app = express();
